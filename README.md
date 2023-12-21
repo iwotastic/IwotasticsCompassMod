@@ -1,4 +1,4 @@
-![Logo for iwotastic's Compass Mod](./logo.png)
+![Logo for iwotastic's Compass Mod](https://github.com/iwotastic/IwotasticsCompassMod/blob/master/logo.png?raw=true)
 
 # iwotastic's Compass Mod
 

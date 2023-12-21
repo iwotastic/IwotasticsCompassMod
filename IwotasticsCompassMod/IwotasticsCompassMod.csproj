@@ -46,4 +46,8 @@
         <HintPath>Managed\UnityEngine.UIModule.dll</HintPath>
       </Reference>
     </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="powershell .\Scripts\PostBuild.ps1 " />
+    </Target>
 </Project>
