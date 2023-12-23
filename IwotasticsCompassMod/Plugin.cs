@@ -8,7 +8,7 @@ public class Plugin : BaseUnityPlugin
 {
     private void Awake()
     {
-        Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} was loaded successfully.");
+        Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} (v{MyPluginInfo.PLUGIN_VERSION}) was loaded successfully.");
 
         Logger.LogInfo($"Patching compass into HUDManager...");
         Harmony.CreateAndPatchAll(typeof(HUDManagerHooks));
