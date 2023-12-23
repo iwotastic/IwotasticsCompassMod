@@ -10,8 +10,8 @@ public class Plugin : BaseUnityPlugin
     {
         Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} was loaded successfully.");
 
-        Logger.LogInfo($"Patching HUDManager...");
+        Logger.LogInfo($"Patching compass into HUDManager...");
         Harmony.CreateAndPatchAll(typeof(HUDManagerHooks));
-        Logger.LogInfo($"Done!");
+        Logger.LogInfo($"Finished patching HUDManager!");
     }
 }

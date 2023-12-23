@@ -14,13 +14,14 @@ public class HUDManagerHooks
         // Create HUD game object once and parent it under the HUDContainer
         var hudCompassObject = new GameObject();
         hudCompassObject.transform.SetParent(__instance.HUDContainer.transform, false);
-        var newPos = new Vector3(0f, 190f, 0f);
+        var newPos = new Vector3(0f, 185f, 0f);
         hudCompassObject.transform.localPosition = newPos;
 
         // Add our own script to the compass object, so it can do compass things
         var hudCompassBehaviour = hudCompassObject.AddComponent<HUDCompassBehaviour>();
        
         // This is blursed, but I can't think of a better way to get the font that the game uses
-        hudCompassBehaviour.fontToUse = __instance.weightCounter == null ? null : __instance.weightCounter.font;
+        hudCompassBehaviour.compassFontAsset =
+            __instance.weightCounter == null ? null : __instance.weightCounter.font;
     }
 }
