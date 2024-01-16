@@ -1,7 +1,6 @@
-﻿using System;
+using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace IwotasticsCompassMod;
 
