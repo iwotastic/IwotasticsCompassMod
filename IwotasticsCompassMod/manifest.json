@@ -1,7 +1,7 @@
 ﻿{
   "name": "IwotasticsCompassMod",
   "description": "A mod for Lethal Company that just adds a compass to the top of the screen.",
-  "version_number": "1.2.1",
+  "version_number": "1.2.0",
   "website_url": "https://github.com/iwotastic/IwotasticsCompassMod",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100"
