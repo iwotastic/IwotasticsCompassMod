@@ -6,9 +6,9 @@ A mod Lethal Company mod that adds a compass to the top of the screen, which hop
 
 # Changelog
 
-## v1.3.0
+## v1.2.1
 - Implemented the ability to change the X and Y position of the compass through the config file.
-- Removed the clock adjustment.
+- Implemented a config fo the clock adjustment.
 
 ## v1.2.0
 - Rebuilt and tested compatibility with Lethal Company version 47.
