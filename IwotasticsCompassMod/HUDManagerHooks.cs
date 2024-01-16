@@ -22,7 +22,7 @@ public class HUDManagerHooks
         hudCompassBehaviour.compassFontAsset =
             __instance.weightCounter == null ? null : __instance.weightCounter.font;
 
-        // Push the clock down a little so that the compass doesn't clip over it anymore if the config is true and the position is not changed
+        // Push the clock down a little so that the compass doesn't clip over it anymore if the config is true
         if (Plugin.ShouldMoveClockDown.Value == true)
         {
             var fixedCompassPos = new Vector3(Plugin.CompassPosX.Value, (Plugin.CompassPosY.Value + 8f), 0f);
