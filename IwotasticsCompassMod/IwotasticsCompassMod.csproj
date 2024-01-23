@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <Description>A simple Lethal Company mod that adds a compass to the top of the screen, so you don't get as lost.</Description>
-        <Version>1.2.0</Version>
+        <Version>1.3.0</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
         <RestoreAdditionalProjectSources>
