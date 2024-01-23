@@ -2,17 +2,10 @@
 
 # iwotastic's Compass Mod
 
-A mod Lethal Company mod that adds a compass to the top of the screen, which hopefully will make it slightly easier to not get completely lost.
+A simple Lethal Company mod that adds a compass to the top of the screen, so you don't get as lost.
 
-# Changelog
-
-## v1.2.0
-- Rebuilt and tested compatibility with Lethal Company version 47.
-- Adjusted position of compass and clock, so that they don't overlap anymore (suggested by theradiostar42 in the Unofficial Lethal Company Discord server).
-
-## v1.1.0
-- Adjusted compass position slightly, so that it is a little lower on screen.
-- Cleaned up code and stopped doing unnecessary things on load.
-
-## v1.0.0
-Initial release, was not completely tested.
+## Development Setup
+To get your development environment setup:
+1. Clone this repository to your PC.
+2. From the `IwotasticsCompassMod` directory run `.\Scripts\RegenerateManagedFolder.ps1` in your PowerShell prompt.
+3. You should now be able to build from the build button in Microsoft Visual Studio or Jetbrains Rider.
